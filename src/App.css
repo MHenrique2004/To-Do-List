@@ -1,0 +1,147 @@
+* {
+    font-family: sans-serif;
+
+}
+
+body {
+
+    background-image: url("Images/rose-petals.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 33px;
+
+}
+
+.App {
+
+    background: #efefef;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto 300px;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+h2 {
+
+    margin-bottom: 10px;
+
+}
+
+p {
+
+    margin: 10px 0;
+
+}
+
+input {
+
+    box-sizing: border-box;
+
+}
+
+button {
+
+    background-color: #333974;
+    color: #ffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+button:hover {
+
+    opacity: 1;
+
+}
+
+.FormularioToDo {
+
+    padding-bottom: 50px;
+
+}
+
+input,
+select {
+
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 100%;
+
+}
+
+.Deletar {
+    width: 90px;
+    font-size: 16px;
+    font-weight: 30;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    transition: all .4s ease-in-out;
+}
+
+.Deletar:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.Deletar:focus {
+    outline: none;
+}
+
+.Deletar {
+    background-image: linear-gradient(to right,
+            #eb3941,
+            #f15e64,
+            #e14e53,
+            #e2373f);
+    box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+}
+
+.Completar {
+    width: 90px;
+    font-size: 16px;
+    font-weight: 30;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    transition: all .4s ease-in-out;
+}
+
+.Completar:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.Completar:focus {
+    outline: none;
+}
+
+.Completar {
+    background-image: linear-gradient(to right,
+            #48eb39,
+            #5ef165,
+            #5ef165,
+            #48eb39);
+    box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+}
