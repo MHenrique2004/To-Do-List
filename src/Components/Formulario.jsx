@@ -30,7 +30,7 @@ function Formulario({addTodos}) {
                     <option value="Estudos">Estudos</option>
                     <option value="Pessoal">Pessoal</option>
                 </select>
-                <button type="submit">Adicionar Tarefa</button>
+                <button type="submit" className='adicionar'>Adicionar Tarefa</button>
             </form>
         </div>
     )
